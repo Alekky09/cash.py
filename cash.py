@@ -3,12 +3,10 @@ from cs50 import get_float
 while True:
 
     ch = get_float("Change owed: ")
+
     if ch > 0:
 
         cents = ch * 100
-
-
-
 
         q = cents // 25
         d = (cents % 25) // 10
